@@ -1,0 +1,16 @@
+div {
+    
+    background: url('/img/left-top.jpeg'),
+                url('/img/right-top.jpeg'),
+                url('/img/right-bottom.jpeg'),
+                url('/img/left-bottom.jpeg'),
+                url('/img/top.jpeg'),
+                url('/img/right.jpeg'),
+                url('/img/bottom.jpeg'),
+                url('/img/left.jpeg');
+    background-position: top left, top right, bottom right, bottom left, 
+    top, right, bottom, left;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, 
+    repeat-x, repeat-y, repeat-x, repeat-y;
+    padding: 5em;
+}
