@@ -1,0 +1,13 @@
+.star {
+    unicode-bidi: normal;
+    direction: rtl;
+}
+.star > span {
+    display: inline-block;
+    position: relative;
+}
+.star > span:hover:before,
+.star > span:hover ~ span:before {
+       content: url(./img/star1\ \(1\).png);
+       position: absolute;
+}
