@@ -1,0 +1,12 @@
+.pointer::before {
+    content: url(./extref.png);
+}
+.green {
+    color: green;
+}
+.red {
+    color: red;
+}
+.start {
+    text-decoration: none;
+}
